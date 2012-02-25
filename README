@@ -1,3 +1,19 @@
 
 This is nethack with menucolors and statuscolors patches.
 
+The games is installed in "games" directory. The generated nethack binary has no setuid and setgid and uses game data from the "games" directory.
+Hence this binary cannot be copied into other system. It must be rebuilt on move.
+
+Build Instructions
+--------------------
+
+$ make
+$ make install
+
+
+Running the game
+------------------
+
+$ ./nethack.sh
+
+
