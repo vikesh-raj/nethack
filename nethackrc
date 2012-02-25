@@ -1,0 +1,16 @@
+
+# Nethack options
+OPTIONS=gender:male
+
+OPTIONS=windowtype:tty
+OPTIONS=toptenwin,hilite_pet,!number_pad
+OPTIONS=fixinv,safe_pet,sortpack,tombstone,color
+OPTIONS=time,showexp,showrace,showscore,msg_window=full,boulder:8,DECgraphics
+OPTIONS=verbose,news,fruit:potato
+OPTIONS=dogname:Slinky
+OPTIONS=catname:Rex
+OPTIONS=pickup_types:$
+OPTIONS=nomail
+OPTIONS=autopickup
+OPTIONS=disclose:+i+a+v+g+c
+
