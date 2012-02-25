@@ -5,7 +5,7 @@ OPTIONS=gender:male
 OPTIONS=windowtype:tty
 OPTIONS=toptenwin,hilite_pet,!number_pad
 OPTIONS=fixinv,safe_pet,sortpack,tombstone,color
-OPTIONS=time,showexp,showrace,showscore,msg_window=full,boulder:8,DECgraphics
+OPTIONS=time,showexp,showrace,showscore,msg_window=full,boulder:8
 OPTIONS=verbose,news,fruit:potato
 OPTIONS=dogname:Slinky
 OPTIONS=catname:Rex
@@ -45,3 +45,24 @@ MENUCOLOR="lembas wafer"=lightcyan
 MENUCOLOR="lichen corpse"=lightgreen
 MENUCOLOR="lizard corpse"=lightmagenta
 
+# === STATUSCOLOR ===
+# defaults from http://bilious.homelinux.org/?142
+# HP
+STATUSCOLOR=hp%100=green,hp%66=yellow,hp%50=orange
+STATUSCOLOR=hp%33=red&bold,hp%15:red&inverse,hp%0:red&inverse&blink
+# Pw
+STATUSCOLOR=pw%100=green,pw%66=yellow,pw%50:orange,pw%33=red&bold
+# Carry
+STATUSCOLOR=burdened:yellow,stressed:orange,strained:red&bold
+STATUSCOLOR=overtaxed:red&inverse,overloaded:red&inverse&blink
+# Hunger
+STATUSCOLOR=satiated:yellow,hungry:orange,weak:red&bold
+STATUSCOLOR=fainting:red&inverse,fainted:red&inverse&blink
+# Mental
+STATUSCOLOR=hallu:yellow,conf:orange,stun:red&bold
+# Health
+STATUSCOLOR=ill:red&inverse,foodpois:red&inverse,slime:red&inverse
+# Other
+STATUSCOLOR=held:red&inverse,blind:red&inverse
+
+OPTIONS=DECgraphics

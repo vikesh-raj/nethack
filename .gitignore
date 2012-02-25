@@ -1,6 +1,7 @@
 *~
 games
 *.o
+*.orig
 nethack-src/dat
 nethack-src/include/date.h
 nethack-src/include/dgn_comp.h
